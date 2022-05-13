@@ -50,3 +50,4 @@ sorting_dict(ratings_dictionary)
 # print(scores_list)
 # iterate over list - save first half as key and other half as value
 # sort(dict.keys())
+##
