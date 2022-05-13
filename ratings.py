@@ -19,6 +19,18 @@ sorted_ratings_list = sorted(ratings_list)
 for restaurant, rating in sorted_ratings_list:
     print(f"{restaurant} has a rating of {rating}")
 
+restaurant_input = input("What restaurant do you want to add? ")
+score_input = input("How do you score it? ")
+
+ratings_dictionary[restaurant_input] = score_input
+
+ratings_list = ratings_dictionary.items()
+
+sorted_ratings_list = sorted(ratings_list)
+
+for restaurant, rating in sorted_ratings_list:
+    print(f"{restaurant} has a rating of {rating}")
+
 # convert variable into string
 # scores_str = scores.read()
 
@@ -30,4 +42,3 @@ for restaurant, rating in sorted_ratings_list:
 # iterate over list - save first half as key and other half as value
 # sort(dict.keys())
 
-# prompt user for restaurant name
